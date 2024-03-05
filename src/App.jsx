@@ -6,11 +6,15 @@ import "./App.css";
 // Call the above api when the page loads and console log the api response
 
 // #TASK 2
-// Use the response from the above api as input and convert it to generate the following object
+// Use the response from the above api as input and convert it to generate the following object. Each key in the object is the type
+// and each value is the sum of prices for that particular type. The function you write should be scalable, meaning it should be able to
+// handle any number of types.
+
 // {
-//   vegetables:3.5200000000000005, // sum of all item prices that are of type vegetables
-//   meat:7.23, // sum of all item prices that are of type meat
-//   soup:4.78 // sum of all item prices that are of type soup
+//   vegetables:3.5200000000000005,
+//   meat:7.23,
+//   ...
+//   ...
 // }
 
 // #TASK 3
@@ -20,7 +24,8 @@ import "./App.css";
 
 // #TASK 4
 // Use the App.css file to define a class.
-// This style class should center the <p> tag and the <button> tag in the exact center of the screen
+// This style class should center the <p> tag and the <button> tag in the exact center of the screen. Vertically and horizontally the
+// elements should be in the center.
 
 function App() {
   return (
